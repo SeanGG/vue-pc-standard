@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "./config";
+@import "./mixins";
+.el-container {
+  height: 100%;
+}
+
+// 临时
+.el-header,
+.el-footer {
+  background-color: #000;
+  padding: 0;
+}
+
+.el-aside {
+  background-color: #eee;
+}

@@ -1,0 +1,19 @@
+$imgPath: '../../assets/images';
+$height: 60px;
+$marginlr: 10px;
+.leftMenu {
+  position: relative;
+  height: 100%;
+  text-align: left;
+  .menu-trigger {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .el-menu {
+    width: 200px;
+  }
+  .el-menu--collapse {
+    width: 64px;
+  }
+}

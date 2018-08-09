@@ -1,0 +1,12 @@
+$imgPath: '../../assets/images';
+$height: 30px;
+.footer {
+  color: #fff;
+  .copyright {
+    height: $height;
+    line-height: $height;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+}

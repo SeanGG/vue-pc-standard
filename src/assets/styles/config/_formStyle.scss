@@ -1,0 +1,14 @@
+@charset "utf-8";
+@import "./config";
+@import "./mixins";
+$lineHeight: 40px;
+.form-grid {
+  // .el-row {
+  //   margin-bottom: 10px;
+  // }
+  .form-line {
+    height: $lineHeight;
+    line-height: $lineHeight;
+    text-align: left;
+  }
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import "./config/config";
+@import "./config/mixins";
+@import "./config/resetElement";
+@import "./config/formStyle";
+// @import url(//at.alicdn.com/t/font_225216_pumniag0rn2sxlxr.css);
+body,
+html {
+  background: #fff;
+  height: 100%;
+}
+
+#app {
+  font-family: $fontFamily;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  height: 100%;
+}
+
+// tr tl
+.tr {
+  text-align: right;
+}
+
+.tl {
+  text-align: left;
+}
+
+// margin & padding
+.mb-10 {
+  margin-bottom: 10px;
+}
